@@ -6,7 +6,7 @@ import tkinter as tk
 import tkinter.filedialog as fd
 
 folder = ("/home/paladin/PycharmProjects/pythonProject/Material/3cch1/DB")
-roadtxt = open("roads.txt", "r")
+roadtxt = open("roads.txt", "a")
 files = os.listdir(folder)
 listroads = []
 
